@@ -7,7 +7,7 @@ setup(
     install_requires=["py-hanspell"],
     entry_points={
         'console_scripts': [
-            'spcheck = spcheck.__main__:main',
+            'telegram_bot = telegram_bot.main:main',  # 여기에서 수정
         ]
     },
     author="lihuiruo101",
